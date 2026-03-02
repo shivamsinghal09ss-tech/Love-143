@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+For Someone Very Special ❤️
+    <h1>Hey ❤️</h1>
+    <p>
+        I don’t know the perfect words…  
+        But I know what I feel.
+    </p>
+
+    <p>
+        Every time you smile, my day becomes better.  
+        Every time we talk, I feel closer to something beautiful.
+    </p>
+
+    <p>
+        You bring peace to my chaos,  
+        happiness to my ordinary days,  
+        and warmth to my heart.
+    </p>
+
+    <h2>Will you be mine? 💍</h2>
+
+    <button class="yes" onclick="showMessage()">Yes ❤️</button>
+
+    <div class="hidden-message" id="message">
+        You just made me the happiest person alive 💖  
+        I promise to respect you, support you, and always stand by you.
+    </div>
