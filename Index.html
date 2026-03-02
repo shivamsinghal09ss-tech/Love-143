@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For Someone Very Special ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 50px;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #fff;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin: 15px;
+            position: relative;
+        }
+
+        .yes {
+            background-color: #ff4b5c;
+            color: white;
+        }
+
+        .no {
+            background-color: #444;
+            color: white;
+            position: absolute;
+        }
+
+        .hidden-message {
+            margin-top: 25px;
+            font-size: 20px;
+            color: #fff;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hey ❤️</h1>
+
+    <p>
+        I don’t know the perfect words…  
+        But I know what I feel.
+    </p>
+
+    <p>
+        Every time you smile, my day becomes better.  
+        Every time we talk, I feel closer to something beautiful.
+    </p>
+
+    <p>
+        You bring peace to my chaos,  
+        happiness to my ordinary days,  
+        and warmth to my heart.
+    </p>
+
+    <h2>Will you be mine? 💍</h2>
+
+    <button class="yes" onclick="showMessage()">Yes ❤️</button>
+    <button class="no" onmouseover="moveButton()" id="noBtn">No 💔</button>
+
+    <div class="hidden-message" id="message">
+        You just made me the happiest person alive 💖  
+        I promise to respect you, support you, and always stand by you.
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+
+        function moveButton() {
+            var button = document.getElementById("noBtn");
+            var x = Math.random() * (window.innerWidth - 100);
+            var y = Math.random() * (window.innerHeight - 100);
+            button.style.left = x + "px";
+            button.style.top = y + "px";
+        }
+    </script>
+
+</body>
+</html>
